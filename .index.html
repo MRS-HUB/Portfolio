@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Portfolio Marcos Colombres</title>
+    <link rel="icon" href="fullumbrella_umbrella_4867.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<style>
+   
+</style>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Marquitos</h1>
+            <ul class="nav-links">
+              <li><a href="#Inicio">Inicio</a></li>
+              <li><a href="#Mi">Sobre mí</a></li>
+              <li><a href="#Proyectos">Mis proyectos</a></li>
+              <li><a href="#Contactame">Contáctame</a></li>
+            </ul>
+          </nav>
+    </header>
+    
+    <section class="sección-inicial" id="Inicio"> 
+        <div class="contenedor_texto_iconos">
+          <div class="Texto_Bienvenida">
+            <h1>Bienvenido...</h1>
+            <h1>Mi nombre es Marcos.</h1>
+            <p>Soy un programador en proceso :)</p>
+          </div>
+      
+          <div class="Iconos">
+            <a href="https://www.instagram.com/_marquitos2003" target="_blank" rel="noopener noreferrer">
+            <img src="icono1.jpg.jpg" alt="instagram">
+            </a>
+            <a href="https://wa.me/541160429857" target="_blank" rel="noopener noreferrer">
+            <img src="icono2.jpg" alt="Whatsapp">
+            </a>
+            <a href="https://www.linkedin.com/in/marcos-colombres-524061238/" target="_blank" rel="noopener noreferrer">
+            <img src="icono3.jpg" alt="linkedin">
+            </a>
+          </div>
+        </div>
+      
+        <div class="Mi_foto">
+          <div class="foto-con-anillos">
+          <img class="foto" src="Foto Macos.jpg" alt="Foto Marcos">
+          </div>
+        </div>
+      
+        <div class="Contenedor_Skils">
+          <h1>Mis conocimientos</h1>
+          <div class="skills-icons">
+            <img src="c_icon_132529.png" alt="C++">
+            <img src="c_sharp_icon_213045.png" alt="C#">
+            <img src="social_html5_html_71.png" alt="HTML">
+            <img src="css3-01_icon-icons.com_50918.png" alt="CSS">
+            <img src="sql-document_icon-icons.com_57634.png" alt="SQL">
+          </div>
+          
+        </div>
+      </section>
+    <section class="sección-sobre-mi" id="Mi">
+      <h2 class="Titulo" id="Titulo-SobreMI">Sobre mi</h2>
+        <div class="Sobre_mi">
+         <p>Soy estudiante de la carrera de Programación en la Universidad Tecnológica Nacional,
+            Facultad Regional Pacheco. Actualmente estoy cursando el segundo y último año.
+            Me interesa especialmente el desarrollo de software y disfruto aprender nuevas
+            tecnologías, resolver problemas y trabajar en proyectos que me permitan crecer 
+            como programador.</p>
+            <div class="Circulo">
+              <img src="Foto Marcos2.jpg" alt="Foto_Marcos2">
+            </div>     
+        </div>     
+    </section>
+    <section class="sección-mis-proyectos" id="Proyectos">
+        <h2 class="Titulo" id="Titulo-Proyectos">Mis Proyectos</h2>
+        <p>En esta sección podrás ver mis proyectos.</p>
+        <a href="https://github.com/MRS-HUB" target="_blank" rel="noopener noreferrer">
+        <img src="github_PNG28.png" alt="Logo_github">
+        </a>
+            </section>
+    <footer>
+        <div class="footer-contáctame" id="Contactame">
+            <h2 class="Titulo" id="Titulo-Contáctame">Contáctame</h2>
+            <form class="formulario-contacto">
+              <input type="text" placeholder="Tu nombre" required>
+              <input type="email" placeholder="Tu correo" required>
+              <textarea placeholder="Tu mensaje" rows="4" required></textarea>
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+        
+          <script>
+            document.querySelector('.formulario-contacto').addEventListener('submit', function(e) {
+              e.preventDefault();
+              alert('¡Gracias por tu mensaje! Te responderé pronto.');
+              this.reset();
+            });
+          </script>
+    </footer>
+</body>
+</html>
